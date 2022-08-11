@@ -22,7 +22,7 @@
                   <h5 class="nav-link active" id="sport-tab" data-bs-toggle="tab"
                       data-bs-target="#sport" role="tab" aria-controls="sport" aria-selected="true">
                                         <span class="image-area">
-                                            <img src="~/assets/images/howto_4.png" alt="icon">
+                                            <img src="/images/howto_4.png" alt="icon">
                                         </span>
                     Personal Dashboard
                   </h5>
@@ -31,7 +31,7 @@
                   <h5 class="nav-link" id="match-tab" data-bs-toggle="tab" data-bs-target="#match"
                       role="tab" aria-controls="match" aria-selected="false">
                                         <span class="image-area">
-                                            <img src="~/assets/images/howto_5.png" alt="icon">
+                                            <img src="/images/howto_5.png" alt="icon">
                                         </span>
                     Multi-network NFTs
                   </h5>
@@ -40,7 +40,7 @@
                   <h5 class="nav-link" id="team-tab" data-bs-toggle="tab" data-bs-target="#team"
                       role="tab" aria-controls="team" aria-selected="false">
                                         <span class="image-area">
-                                            <img src="~/assets/images/howto_6.png" alt="icon">
+                                            <img src="/images/howto_6.png" alt="icon">
                                         </span>
                     Betting platform
                   </h5>
@@ -49,7 +49,7 @@
                   <h5 class="nav-link" id="odds-tab" data-bs-toggle="tab" data-bs-target="#odds"
                       role="tab" aria-controls="odds" aria-selected="false">
                                         <span class="image-area">
-                                            <img src="~/assets/images/howto_7.png" alt="icon">
+                                            <img src="/images/howto_7.png" alt="icon">
                                         </span>
                     Live Tournaments
                   </h5>
@@ -58,7 +58,7 @@
                   <h5 class="nav-link" id="amount-tab" data-bs-toggle="tab" data-bs-target="#amount"
                       role="tab" aria-controls="amount" aria-selected="false">
                                         <span class="image-area">
-                                            <img src="~/assets/images/howto_8.png" alt="icon">
+                                            <img src="/images/howto_8.png" alt="icon">
                                         </span>
                     Online Mini Game
                   </h5>
@@ -71,31 +71,31 @@
                      aria-labelledby="sport-tab">
                   <h4>Personal Dashboard</h4>
                   <div class="img-area">
-                    <img src="~/assets/images/feature_1.png" alt="image">
+                    <img src="/images/feature_1.png" alt="image">
                   </div>
                 </div>
                 <div class="tab-pane fade" id="match" role="tabpanel" aria-labelledby="match-tab">
                   <h4>Multi-network NFTs</h4>
                   <div class="img-area">
-                    <img src="~/assets/images/feature_2.png" alt="image">
+                    <img src="/images/feature_2.png" alt="image">
                   </div>
                 </div>
                 <div class="tab-pane fade" id="team" role="tabpanel" aria-labelledby="team-tab">
                   <h4>Betting platform</h4>
                   <div class="img-area">
-                    <img src="~/assets/images/feature_3.png" alt="image">
+                    <img src="/images/feature_3.png" alt="image">
                   </div>
                 </div>
                 <div class="tab-pane fade" id="odds" role="tabpanel" aria-labelledby="odds-tab">
                   <h4>Live Tournaments</h4>
                   <div class="img-area">
-                    <img src="~/assets/images/feature_4.png" alt="image">
+                    <img src="/images/feature_4.png" alt="image">
                   </div>
                 </div>
                 <div class="tab-pane fade" id="amount" role="tabpanel" aria-labelledby="amount-tab">
                   <h4>Online Mini Game</h4>
                   <div class="img-area">
-                    <img src="~/assets/images/feature_5.png" alt="image">
+                    <img src="/images/feature_5.png" alt="image">
                   </div>
                 </div>
               </div>

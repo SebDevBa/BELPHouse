@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-header text-center">
-              <img src="~/assets/images/babychance.png" alt="launch">
+              <img src="/images/babychance.png" alt="launch">
             </div>
           </div>
         </div>
