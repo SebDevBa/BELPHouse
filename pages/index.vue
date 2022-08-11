@@ -12,9 +12,6 @@
     <HomeHowItWorks />
     <!-- How it Works end -->
 
-    <!-- SOCIALS Area Start -->
-    <StructureSocialArea />
-    <!-- SOCIALS Area Start -->
   </div>
 </template>
 
