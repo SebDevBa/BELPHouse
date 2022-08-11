@@ -43,19 +43,19 @@
     <!-- Modal CONNECT end -->
 
   <!--==================================================================-->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/fontawesome.js"></script>
-  <script src="js/plugin/slick.js"></script>
-  <script src="js/plugin/jquery.nice-select.min.js"></script>
-  <script src="js/plugin/jquery.downCount.js"></script>
-  <script src="js/plugin/counter.js"></script>
-  <script src="js/plugin/waypoint.min.js"></script>
-  <script src="js/plugin/jquery.magnific-popup.min.js"></script>
-  <script src="js/plugin/wow.min.js"></script>
-  <script src="js/plugin/plugin.js"></script>
-  <script src="js/main.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/jquery-ui.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/fontawesome.js"></script>
+  <script src="/js/plugin/slick.js"></script>
+  <script src="/js/plugin/jquery.nice-select.min.js"></script>
+  <script src="/js/plugin/jquery.downCount.js"></script>
+  <script src="/js/plugin/counter.js"></script>
+  <script src="/js/plugin/waypoint.min.js"></script>
+  <script src="/js/plugin/jquery.magnific-popup.min.js"></script>
+  <script src="/js/plugin/wow.min.js"></script>
+  <script src="/js/plugin/plugin.js"></script>
+  <script src="/js/main.js"></script>
 
     <script type="module" src="https://cdn.nft-generator.art/js-sdk/v1.4.0/nft-art-generator-sdk/nft-art-generator-sdk.esm.js"></script>
     <script nomodule src="https://cdn.nft-generator.art/js-sdk/v1.4.0/nft-art-generator-sdk/nft-art-generator-sdk.js"></script>
