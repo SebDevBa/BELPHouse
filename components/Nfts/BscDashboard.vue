@@ -20,7 +20,7 @@
                             <div class="col-md-6 col-lg-6">
                               <div class="text-center pb-25">
                                 <div class="img-area">
-                                  <img src="/images/blindbox.png" alt="image">
+                                  <img src="~~/images/blindbox.png" alt="image">
                                 </div>
                               </div>
                             </div>
@@ -38,7 +38,7 @@
                                 </div>
                                 <div class="pr_content">
                                   <div>
-                                    <img src="/images/bnb.png" style="max-width: 200px; padding-top: 15px; padding-bottom: 15px;" alt="image">
+                                    <img src="~~/images/bnb.png" style="max-width: 200px; padding-top: 15px; padding-bottom: 15px;" alt="image">
                                   </div>
                                   <ul class="list_none">
                                     <div class="divider small_divider2"></div>
@@ -79,7 +79,7 @@
                             <div class="col-md-6 col-lg-6">
                               <div class="text-center pb-25">
                                 <div class="img-area">
-                                  <img src="/images/blindbox.png" alt="image">
+                                  <img src="~~/images/blindbox.png" alt="image">
                                 </div>
                               </div>
                             </div>
@@ -89,7 +89,7 @@
                                   <h3>BUY NFT NOW</h3>
                                 </div>
                                 <div>
-                                  <img src="/images/sol.png" style="max-width: 250px; padding-top: 15px; padding-bottom: 15px;" alt="image">
+                                  <img src="~~/images/sol.png" style="max-width: 250px; padding-top: 15px; padding-bottom: 15px;" alt="image">
                                 </div>
                                 <div class="pr_content">
                                   <ul class="list_none">

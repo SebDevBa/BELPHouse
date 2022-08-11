@@ -23,7 +23,7 @@
                   <div class="row pb-50">
                     <div class="col-xl-4 col-lg-4 pb-25">
                       <div class="single-info glow">
-                        <img src="/images/icon/icon1.png" alt="icon">
+                        <img src="~~/images/icon/icon1.png" alt="icon">
                         <div class="text-area">
                           <h4>0</h4>
                           <p class="mdr">Your BELP</p>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 pb-25">
                       <div class="single-info glow">
-                        <img src="/images/icon/icon2.png" alt="icon">
+                        <img src="~~/images/icon/icon2.png" alt="icon">
                         <div class="text-area">
                           <h4>0</h4>
                           <p class="mdr">Your NFTs</p>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4">
                       <div class="single-info glow">
-                        <img src="/images/icon/icon3.png" alt="icon">
+                        <img src="~~/images/icon/icon3.png" alt="icon">
                         <div class="text-area">
                           <h4>SOON</h4>
                           <p class="mdr">Bet Rate</p>
@@ -60,7 +60,7 @@
                   <div class="row">
                     <div class="col-xl-4 col-lg-4 pb-25">
                       <div class="single-info glow">
-                        <img src="/images/icon/icon4.png" alt="icon">
+                        <img src="~~/images/icon/icon4.png" alt="icon">
                         <div class="text-area">
                           <h5>AFTER LAUNCH</h5>
                           <p class="mdr">Baby Doge</p>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 pb-25">
                       <div class="single-info glow">
-                        <img src="/images/icon/icon5.png" alt="icon">
+                        <img src="~~/images/icon/icon5.png" alt="icon">
                         <div class="text-area">
                           <h5>AFTER LAUNCH</h5>
                           <p class="mdr">WBNB (Current Week)</p>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 pb-25">
                       <div class="single-info glow">
-                        <img src="/images/icon/icon6.png" alt="icon">
+                        <img src="~~/images/icon/icon6.png" alt="icon">
                         <div class="text-area">
                           <h5>AFTER LAUNCH</h5>
                           <p class="mdr">Bet Income</p>

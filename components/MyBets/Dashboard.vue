@@ -13,7 +13,7 @@
                 <div class="row">
                   <div class="col-xl-6 col-lg-6 col-sm-6 col-xs-6">
                     <div class="imgoverlay">
-                      <img src="/images/chips_BELP.png" alt="icon">
+                      <img src="~~/images/chips_BELP.png" alt="icon">
                     </div>
                     <div class="balance glow">
 
@@ -29,7 +29,7 @@
                   </div>
                   <div class="col-xl-6 col-lg-6 col-sm-6 col-xs-6">
                     <div class="token text-center">
-                      <img src="/images/BELP_token.png" alt="icon">
+                      <img src="~~/images/BELP_token.png" alt="icon">
                     </div>
                     <div class="balance glow text-center">
                       <div class="single-item">
@@ -75,55 +75,55 @@
                               <tbody>
                               <tr>
                                 <td><button class="cmn-btn view" type="button" data-bs-toggle="modal" data-bs-target="#betdetails">View</button>Feb 20 - 20:25 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 50500</td>
                                 <td>45321</td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   80000
                                 </td>
                               </tr>
                               <tr>
                                 <td><button class="cmn-btn view" type="button" data-bs-toggle="modal" data-bs-target="#betdetails">View</button>Feb 21 - 13:05 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 50500</td>
                                 <td>45321</td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   80000
                                 </td>
                               </tr>
                               <tr>
                                 <td><button class="cmn-btn view" type="button" data-bs-toggle="modal" data-bs-target="#betdetails">View</button>Feb 22 - 10:00 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 50500</td>
                                 <td>45321</td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   80000
                                 </td>
                               </tr>
                               <tr>
                                 <td><button class="cmn-btn view" type="button" data-bs-toggle="modal" data-bs-target="#betdetails">View</button>Feb 22 - 15:00 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 50500</td>
                                 <td>45321</td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   80000
                                 </td>
                               </tr>
                               <tr>
                                 <td><button class="cmn-btn view" type="button" data-bs-toggle="modal" data-bs-target="#betdetails">View</button>Feb 25 - 11:00 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 50500</td>
                                 <td>45321</td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   80000
                                 </td>
@@ -147,48 +147,48 @@
                               <tbody>
                               <tr>
                                 <td><button class="cmn-btn view_his" type="button" data-bs-toggle="modal" data-bs-target="#historydetails">View</button>Feb 20 - 20:25 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 4400</td>
                                 <td>45321</td>
                                 <td><i class="fas fa-thumbs-down deposit-btn" /></td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   70000
                                 </td>
                               </tr>
                               <tr>
                                 <td><button class="cmn-btn view_his" type="button" data-bs-toggle="modal" data-bs-target="#historydetails">View</button>Feb 21 - 13:05 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 50500</td>
                                 <td>45321</td>
                                 <td><i class="fas fa-thumbs-down deposit-btn" /></td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   80000
                                 </td>
                               </tr>
                               <tr>
                                 <td><button class="cmn-btn view_his" type="button" data-bs-toggle="modal" data-bs-target="#historydetails">View</button>Feb 22 - 10:00 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 50500</td>
                                 <td>45321</td>
                                 <td><i class="fas fa-thumbs-up withdraw-btn" /></td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   80000
                                 </td>
                               </tr>
                               <tr>
                                 <td><button class="cmn-btn view_his" type="button" data-bs-toggle="modal" data-bs-target="#historydetails">View</button>Feb 22 - 15:00 UTC</td>
-                                <td><img src="/images/BELP.png"
+                                <td><img src="~~/images/BELP.png"
                                          alt="icon"> 50500</td>
                                 <td>45321</td>
                                 <td><i class="fas fa-thumbs-down deposit-btn" /></td>
                                 <td>
-                                  <img src="/images/BELP_2.png"
+                                  <img src="~~/images/BELP_2.png"
                                        alt="icon">
                                   80000
                                 </td>
