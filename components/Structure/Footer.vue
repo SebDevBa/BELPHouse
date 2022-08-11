@@ -6,7 +6,7 @@
           <div class="col-xl-12">
             <div class="menu-item">
               <a href="https://babyelephant.finance/" class="logo">
-                <img src="~/assets/images/footer_logo.png" alt="logo">
+                <img src="/images/footer_logo.png" alt="logo">
               </a>
             </div>
           </div>
