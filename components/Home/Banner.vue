@@ -2,12 +2,12 @@
   <section class="banner-section inner-banner bethouse">
     <div class="overlay" style="background: rgb(75,176,237); background: linear-gradient(90deg, rgba(75,176,237,1) 35%, rgba(21,108,164,1) 100%);">
       <div class="shape-area">
-        <img src="~~/images/big_BELP.png" class="tournaments-illu" alt="image">
+        <img src="~/assets/images/big_BELP.png" class="tournaments-illu" alt="image">
       </div>
       <div class="banner-content">
         <div class="container">
           <!--div class="content-shape">
-              <img src="~~/images/sell-hero-illus.png" class="obj-8" alt="image">
+              <img src="~/assets/images/sell-hero-illus.png" class="obj-8" alt="image">
           </div-->
           <div class="row">
             <div class="col-lg-9 col-md-10">
@@ -18,7 +18,7 @@
                     <ol class="breadcrumb d-flex align-items-center">
                       <li class="breadcrumb-item"></li>
                       <li class="breadcrumb-item active" aria-current="page">
-                        <a href="#utils" class="btn btn-belp scroll"><img src="~~/images/logo_BE_s.png" alt="BELP"/> Utilities</a>
+                        <a href="#utils" class="btn btn-belp scroll"><img src="~/assets/images/logo_BE_s.png" alt="BELP"/> Utilities</a>
                       </li>
                     </ol>
                   </nav>

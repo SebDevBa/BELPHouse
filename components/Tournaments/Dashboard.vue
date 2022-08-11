@@ -26,7 +26,7 @@
               </ul>
             </div>
             <!--div class="cards-img">
-               <img src="~~/images/baby_cup.png" alt="icon">
+               <img src="~/assets/images/baby_cup.png" alt="icon">
             </div-->
             <div class="tab-content">
               <div class="tab-pane fade show active" id="current" role="tabpanel" aria-labelledby="current-tab">
@@ -35,7 +35,7 @@
                     <div class="single-item glow">
                       <div class="left-item">
                         <div class="logo-item">
-                          <img src="~~/images/tournament_1.png" alt="icon">
+                          <img src="~/assets/images/tournament_1.png" alt="icon">
                         </div>
                         <div class="mid-area">
                           <h3>Tournament 1</h3>
@@ -56,7 +56,7 @@
                         </div>
                       </div>
                       <div class="last-item">
-                        <h5><img src="~~/images/fav.png" alt="icon" style="height: 35px"> Prize</h5>
+                        <h5><img src="~/assets/images/fav.png" alt="icon" style="height: 35px"> Prize</h5>
                         <h4>25%</h4>
                         <span class="btn-border">
                                             <a href="" class="cmn-btn" data-bs-toggle="modal" data-bs-target="#tournaments">Place Bets</a>
@@ -66,7 +66,7 @@
                     <div class="single-item glow">
                       <div class="left-item">
                         <div class="logo-item">
-                          <img src="~~/images/tournament_2.png" alt="icon">
+                          <img src="~/assets/images/tournament_2.png" alt="icon">
                         </div>
                         <div class="mid-area">
                           <h3>Tournament 2</h3>
@@ -87,7 +87,7 @@
                         </div>
                       </div>
                       <div class="last-item">
-                        <h5><img src="~~/images/fav.png" alt="icon" style="height: 35px"> Prize</h5>
+                        <h5><img src="~/assets/images/fav.png" alt="icon" style="height: 35px"> Prize</h5>
                         <h4>25%</h4>
                         <span class="btn-border">
                                             <a href="" class="cmn-btn" data-bs-toggle="modal" data-bs-target="#tournaments">Place Bets</a>
@@ -103,7 +103,7 @@
                         <li class="page-item">
                           <a class="page-btn previous glow" href="javascript:void(0)"
                              aria-label="Previous">
-                            <img src="~~/images/icon/arrow-left.png" alt="icon">
+                            <img src="~/assets/images/icon/arrow-left.png" alt="icon">
                           </a>
                         </li>
                         <li class="page-item"><a class="page-link xlr glow" href="javascript:void(0)">1</a>
@@ -116,7 +116,7 @@
                         </li>
                         <li class="page-item">
                           <a class="page-btn next glow" href="javascript:void(0)" aria-label="Next">
-                            <img src="~~/images/icon/arrow-right.png" alt="icon">
+                            <img src="~/assets/images/icon/arrow-right.png" alt="icon">
                           </a>
                         </li>
                       </ul>
@@ -133,7 +133,7 @@
                     <div class="row">
                       <div class="col-xl-3 col-lg-6">
                         <div class="input-area">
-                          <img src="~~/images/icon/search-icon.png" alt="icon">
+                          <img src="~/assets/images/icon/search-icon.png" alt="icon">
                           <input type="text" placeholder="Search by name">
                         </div>
                       </div>
@@ -160,7 +160,7 @@
                       </div>
                       <div class="col-xl-3 col-lg-6">
                         <div class="input-area">
-                          <img src="~~/images/icon/date-icon.png" alt="icon">
+                          <img src="~/assets/images/icon/date-icon.png" alt="icon">
                           <input type="text" id="dateSelect" placeholder="Select Date">
                         </div>
                       </div>
@@ -218,7 +218,7 @@
                         <li class="page-item">
                           <a class="page-btn previous glow" href="javascript:void(0)"
                              aria-label="Previous">
-                            <img src="~~/images/icon/arrow-left.png" alt="icon">
+                            <img src="~/assets/images/icon/arrow-left.png" alt="icon">
                           </a>
                         </li>
                         <li class="page-item"><a class="page-link xlr glow" href="javascript:void(0)">1</a>
@@ -231,7 +231,7 @@
                         </li>
                         <li class="page-item">
                           <a class="page-btn next glow" href="javascript:void(0)" aria-label="Next">
-                            <img src="~~/images/icon/arrow-right.png" alt="icon">
+                            <img src="~/assets/images/icon/arrow-right.png" alt="icon">
                           </a>
                         </li>
                       </ul>
@@ -247,7 +247,7 @@
                   </div>
                   <div class="col-lg-10 offset-lg-1">
                     <div class="input-area">
-                      <img src="~~/images/icon/search-icon.png" alt="icon">
+                      <img src="~/assets/images/icon/search-icon.png" alt="icon">
                       <input v-model="wallet" type="text" placeholder="Paste wallet address">
                       <button class="btn btn-warning" type="button" v-on:click="$fetch">
                         Search
@@ -305,7 +305,7 @@
 <!--                        <li class="page-item">-->
 <!--                          <a class="page-btn previous glow" href="javascript:void(0)"-->
 <!--                             aria-label="Previous">-->
-<!--                            <img src="~~/images/icon/arrow-left.png" alt="icon">-->
+<!--                            <img src="~/assets/images/icon/arrow-left.png" alt="icon">-->
 <!--                          </a>-->
 <!--                        </li>-->
 <!--                        <li class="page-item"><a class="page-link xlr glow" href="javascript:void(0)">1</a>-->
@@ -318,7 +318,7 @@
 <!--                        </li>-->
 <!--                        <li class="page-item">-->
 <!--                          <a class="page-btn next glow" href="javascript:void(0)" aria-label="Next">-->
-<!--                            <img src="~~/images/icon/arrow-right.png" alt="icon">-->
+<!--                            <img src="~/assets/images/icon/arrow-right.png" alt="icon">-->
 <!--                          </a>-->
 <!--                        </li>-->
 <!--                      </ul>-->

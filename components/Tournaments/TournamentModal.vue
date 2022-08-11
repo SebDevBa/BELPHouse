@@ -19,7 +19,7 @@
                       <div class="single-item">
                         <div class="row">
                           <div class="col-xxl-5 col-lg-5 col-sm-12">
-                            <img src="~~/images/fighter_1.png" alt="icon">
+                            <img src="~/assets/images/fighter_1.png" alt="icon">
                           </div>
                           <div class="col-xxl-7 col-lg-7 col-sm-12">
                             <h4>GAIA</h4>
@@ -62,7 +62,7 @@
                               <span class="mdr"><b>L</b> 20</span></p>
                           </div>
                           <div class="col-xxl-5 col-lg-5 col-sm-12">
-                            <img src="~~/images/fighter_2.png" alt="icon">
+                            <img src="~/assets/images/fighter_2.png" alt="icon">
                           </div>
                         </div>
                         <p><span class="mdr"><b>Won</b> 500</span>
@@ -74,7 +74,7 @@
                     <button type="button" class="cmn-btn firstTeam text-dark" data-bs-dismiss="modal"
                             aria-label="Close" data-bs-toggle="modal"
                             data-bs-target="#betpopup">GAIA WINS</button>
-                    <span class="draw">30% <img src="~~/images/fav.png" alt="icon" style="height: 25px"> 25%</span>
+                    <span class="draw">30% <img src="~/assets/images/fav.png" alt="icon" style="height: 25px"> 25%</span>
                     <button type="button" class="cmn-btn lastTeam text-dark" data-bs-dismiss="modal"
                             aria-label="Close" data-bs-toggle="modal"
                             data-bs-target="#betpopup">ZHORN WINS</button>
@@ -91,7 +91,7 @@
                       <div class="single-item">
                         <div class="row">
                           <div class="col-xxl-5 col-lg-5 col-sm-12">
-                            <img src="~~/images/zelyon.png" alt="icon">
+                            <img src="~/assets/images/zelyon.png" alt="icon">
                           </div>
                           <div class="col-xxl-7 col-lg-7 col-sm-12">
                             <h4>ZELYON</h4>
@@ -134,7 +134,7 @@
                               <span class="mdr"><b>L</b> 20</span></p>
                           </div>
                           <div class="col-xxl-5 col-lg-5 col-sm-12">
-                            <img src="~~/images/guanyu.png" alt="icon">
+                            <img src="~/assets/images/guanyu.png" alt="icon">
                           </div>
                         </div>
                         <p><span class="mdr"><b>Won</b> 500</span>
@@ -144,7 +144,7 @@
                   </div>
                   <div class="bottom-item">
                     <button type="button" class="cmn-btn firstTeam text-dark">GAIA WINS</button>
-                    <span class="draw">30% <img src="~~/images/fav.png" alt="icon" style="height: 25px"> 25%</span>
+                    <span class="draw">30% <img src="~/assets/images/fav.png" alt="icon" style="height: 25px"> 25%</span>
                     <button type="button" class="cmn-btn lastTeam text-dark">ZHORN WINS</button>
                   </div>
                 </div>
@@ -159,7 +159,7 @@
                       <div class="single-item">
                         <div class="row">
                           <div class="col-xxl-5 col-lg-5 col-sm-12">
-                            <img src="~~/images/raja.png" alt="icon">
+                            <img src="~/assets/images/raja.png" alt="icon">
                           </div>
                           <div class="col-xxl-7 col-lg-7 col-sm-12">
                             <h4>RAJA</h4>
@@ -202,7 +202,7 @@
                               <span class="mdr"><b>L</b> 20</span></p>
                           </div>
                           <div class="col-xxl-5 col-lg-5 col-sm-12">
-                            <img src="~~/images/freddie.png" alt="icon">
+                            <img src="~/assets/images/freddie.png" alt="icon">
                           </div>
                         </div>
                         <p><span class="mdr"><b>Won</b> 500</span>
@@ -212,7 +212,7 @@
                   </div>
                   <div class="bottom-item">
                     <button type="button" class="cmn-btn firstTeam text-dark">GAIA WINS</button>
-                    <span class="draw">30% <img src="~~/images/fav.png" alt="icon" style="height: 25px"> 25%</span>
+                    <span class="draw">30% <img src="~/assets/images/fav.png" alt="icon" style="height: 25px"> 25%</span>
                     <button type="button" class="cmn-btn lastTeam text-dark">ZHORN WINS</button>
                   </div>
                 </div>

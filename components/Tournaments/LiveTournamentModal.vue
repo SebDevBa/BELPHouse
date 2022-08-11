@@ -16,11 +16,11 @@
                     <div class="login-reg-content">
                       <div class="modal-body">
                         <div class="head-area">
-                          <img src="~~/images/glasselephant.png" alt="icon" style="height: 150px">
+                          <img src="~/assets/images/glasselephant.png" alt="icon" style="height: 150px">
                           <div class="bettitle">
                             <h6 class="title">Place a Bet using</h6>
                             <div class="social-link d-flex align-items-center">
-                              <h3><img src="~~/images/fav.png" alt="icon" style="height: 35px"> $BELP</h3>
+                              <h3><img src="~/assets/images/fav.png" alt="icon" style="height: 35px"> $BELP</h3>
                             </div>
                           </div>
                         </div>
@@ -53,7 +53,7 @@
                                                                             </span>
                                                                         </span>
                                   </label>
-                                  <a href="javascript:void(0)"><img src="~~/images/favourite.png"
+                                  <a href="javascript:void(0)"><img src="~/assets/images/favourite.png"
                                                                     alt="favourite"> Favourite</a>
                                 </div>
                               </div>
