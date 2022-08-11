@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'belp-website',
+    title: "BELP House - Baby Elephant Utilities",
     htmlAttrs: {
       lang: 'en'
     },
