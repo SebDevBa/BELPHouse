@@ -12,23 +12,23 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
               <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <NuxtLink to="~/assets/" class="nav-link">Home</NuxtLink>
+                  <NuxtLink to="/" class="nav-link">Home</NuxtLink>
 <!--                  <a class="nav-link" aria-current="page" href="~/assets/">Home</a>-->
                 </li>
                 <li class="nav-item">
-                  <NuxtLink to="~/assets/MyBelp" class="nav-link">My BELP</NuxtLink>
+                  <NuxtLink to="/MyBelp" class="nav-link">My BELP</NuxtLink>
 <!--                  <a class="nav-link" aria-current="page" href="~/assets/mybelp">My BELP</a>-->
                 </li>
                 <li class="nav-item">
-                  <NuxtLink to="~/assets/Nfts" class="nav-link">NFT</NuxtLink>
+                  <NuxtLink to="/Nfts" class="nav-link">NFT</NuxtLink>
 <!--                  <a class="nav-link" aria-current="page" href="~/assets/Nfts">NFT</a>-->
                 </li>
 <!--                <li class="nav-item">-->
-<!--                  <NuxtLink to="~/assets/MyBets" class="nav-link">Bets</NuxtLink>-->
+<!--                  <NuxtLink to="/MyBets" class="nav-link">Bets</NuxtLink>-->
 <!--&lt;!&ndash;                  <a class="nav-link" aria-current="page" href="~/assets/mybets">Bets</a>&ndash;&gt;-->
 <!--                </li>-->
                 <li class="nav-item">
-                  <NuxtLink to="~/assets/Tournaments" class="nav-link">Tournaments</NuxtLink>
+                  <NuxtLink to="/Tournaments" class="nav-link">Tournaments</NuxtLink>
 <!--                  <a class="nav-link" aria-current="page" href="tournaments.html">Tournaments</a>-->
                 </li>
               </ul>
