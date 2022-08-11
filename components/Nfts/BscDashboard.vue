@@ -30,10 +30,8 @@
                                   <h3>BUY NFT NOW</h3>
                                   <div class="price_tage">
                                     <h3>DISCOUNT CODE</h3>
-                                    <form name="myForm" action="javascript:void(0);">
-                                      <input class="promo" type="text" name="code">
-                                      <button class="btn-promo" onclick="myFunction()">APPLY</button>
-                                    </form>
+                                      <input class="promo" type="text" name="code" v-model="discountCode">
+                                      <button class="btn-promo" v-on:click="discountCode === 'BDC' ? discountValue = '0.16 BNB (promo applied)' : discountValue = '0.32 BNB'">APPLY</button>
                                   </div>
                                 </div>
                                 <div class="pr_content">
@@ -42,13 +40,13 @@
                                   </div>
                                   <ul class="list_none">
                                     <div class="divider small_divider2"></div>
-                                    <li><i class="fa fa-money"></i> Price per NFT: <strong><div id="myDIV">0.32 BNB</div></strong></li>
+                                    <li><i class="fa fa-money"></i> Price per NFT: <strong><div>{{ discountValue }}</div></strong></li>
                                     <li>
                                       <div id="nftbuy">
                                         <nftart-mint-button address="0x32fC3de2344C90cFf0d89A8e904C6744Fb93D067" chain-id="56" />
                                       </div>
                                     </li>
-                                    <li><span class="blinking">Use <strong>BDC</strong> code for a 50% discount</span></li>
+                                    <li v-if="discountValue === '0.32 BNB'"><span class="blinking">Use <strong>BDC</strong> code for a 50% discount</span></li>
                                     <!--li class="chiqui">
                                       See your NFT on our <strong>Refinable</strong> Colleciton's page:
                                     </li-->
@@ -134,6 +132,10 @@
 import Vue from "vue";
 export default Vue.extend({
   name: "BscDashboard",
+  data: () => ({
+    discountValue: '0.32 BNB',
+    discountCode: '',
+  }),
   head: {
     meta: [
       { name: "nft-art-contract-abi", content: "W3sibmFtZSI6ImJhbGFuY2VPZiIsInR5cGUiOiJmdW5jdGlvbiIsImlucHV0cyI6W3sibmFtZSI6Im93bmVyIiwidHlwZSI6ImFkZHJlc3MiLCJpbnRlcm5hbFR5cGUiOiJhZGRyZXNzIn1dLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6InVpbnQyNTYiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MjU2In1dLCJzdGF0ZU11dGFiaWxpdHkiOiJ2aWV3In0seyJuYW1lIjoiY29zdCIsInR5cGUiOiJmdW5jdGlvbiIsImlucHV0cyI6W10sIm91dHB1dHMiOlt7Im5hbWUiOiIiLCJ0eXBlIjoidWludDI1NiIsImludGVybmFsVHlwZSI6InVpbnQyNTYifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifSx7Im5hbWUiOiJtYXhQZXJNaW50IiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbXSwib3V0cHV0cyI6W3sibmFtZSI6IiIsInR5cGUiOiJ1aW50MzIiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MzIifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifSx7Im5hbWUiOiJtYXhQZXJXYWxsZXQiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOltdLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6InVpbnQzMiIsImludGVybmFsVHlwZSI6InVpbnQzMiJ9XSwic3RhdGVNdXRhYmlsaXR5IjoidmlldyJ9LHsibmFtZSI6Im1pbnQiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOlt7Im5hbWUiOiJjb3VudCIsInR5cGUiOiJ1aW50MzIiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MzIifV0sIm91dHB1dHMiOltdLCJzdGF0ZU11dGFiaWxpdHkiOiJwYXlhYmxlIn0seyJuYW1lIjoibmFtZSIsInR5cGUiOiJmdW5jdGlvbiIsImlucHV0cyI6W10sIm91dHB1dHMiOlt7Im5hbWUiOiIiLCJ0eXBlIjoic3RyaW5nIiwiaW50ZXJuYWxUeXBlIjoic3RyaW5nIn1dLCJzdGF0ZU11dGFiaWxpdHkiOiJ2aWV3In0seyJuYW1lIjoib3BlbiIsInR5cGUiOiJmdW5jdGlvbiIsImlucHV0cyI6W10sIm91dHB1dHMiOlt7Im5hbWUiOiIiLCJ0eXBlIjoiYm9vbCIsImludGVybmFsVHlwZSI6ImJvb2wifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifSx7Im5hbWUiOiJvd25lciIsInR5cGUiOiJmdW5jdGlvbiIsImlucHV0cyI6W10sIm91dHB1dHMiOlt7Im5hbWUiOiIiLCJ0eXBlIjoiYWRkcmVzcyIsImludGVybmFsVHlwZSI6ImFkZHJlc3MifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifSx7Im5hbWUiOiJzdXBwbHkiLCJ0eXBlIjoiZnVuY3Rpb24iLCJpbnB1dHMiOltdLCJvdXRwdXRzIjpbeyJuYW1lIjoiIiwidHlwZSI6InVpbnQzMiIsImludGVybmFsVHlwZSI6InVpbnQzMiJ9XSwic3RhdGVNdXRhYmlsaXR5IjoidmlldyJ9LHsibmFtZSI6InRvdGFsU3VwcGx5IiwidHlwZSI6ImZ1bmN0aW9uIiwiaW5wdXRzIjpbXSwib3V0cHV0cyI6W3sibmFtZSI6IiIsInR5cGUiOiJ1aW50MzIiLCJpbnRlcm5hbFR5cGUiOiJ1aW50MzIifV0sInN0YXRlTXV0YWJpbGl0eSI6InZpZXcifV0="},
