@@ -32,7 +32,7 @@
             <div class="modal-content">
               <div class="row justify-content-center">
                 <div class="col-xxl-10 col-lg-11 col-md-12">
-                  <img src="~/assets/images/launch_banner.jpg" alt="launch">
+                  <img src="/images/launch_banner.jpg" alt="launch">
                 </div>
               </div>
             </div>
