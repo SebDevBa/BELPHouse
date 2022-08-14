@@ -18,7 +18,9 @@ export default Vue.extend({
     tournamentInfo: {
       name: '',
       id: '',
-      rounds: []
+      rounds: [
+        {nftA: null, nftB: null, detailsA: null, detailsB: null}
+      ]
     }
   }),
   created() {

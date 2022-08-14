@@ -189,7 +189,9 @@ export default Vue.extend({
   data: () => ({
     betChoose: {
       tournamentId: '',
-      hero: {},
+      hero: {
+        capsule: {nftId: null}
+      },
       transactionHash: '',
     }
   }),
