@@ -17,7 +17,7 @@
                     </div>
                     <div class="main-content escrow-bets-fee">
                       <div class="team-single">
-                        <div class="single-item" v-if="!!round.detailsA && !!round.detailsB">
+                        <div class="single-item" v-if="!!round.detailsA">
                           <div class="row" >
                             <div class="col-xxl-5 col-lg-5 col-sm-12">
                               <img :src="'/images/versus/'+round.detailsA.nickname.name.toLowerCase()+'.png'" alt="icon">
