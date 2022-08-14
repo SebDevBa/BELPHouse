@@ -11,7 +11,7 @@
               <div class="mid-area">
                 <h3>{{ tournament.name }}</h3>
                 <ul>
-                  <li>
+                  <li v-if="!!tournament.date.iso">
                     <span><i class="far fa-calendar-alt"></i></span>
                     {{ new Date(tournament.date.iso).toLocaleString() }}
                   </li>

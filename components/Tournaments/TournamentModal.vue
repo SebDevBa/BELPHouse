@@ -42,7 +42,7 @@
                       </div>
                       <div class="mid-area text-center">
                         <h3>VS</h3>
-                        <div class="countdown d-flex align-items-center justify-content-center">
+                        <div v-if="false" class="countdown d-flex align-items-center justify-content-center">
                           <h4>
                             <span class="hours">00</span><span class="ref">h</span><span
                             class="seperator">:</span>
@@ -55,7 +55,7 @@
                             <span class="seconds">00</span><span class="ref">s</span>
                           </h4>
                         </div>
-                        <h6><span><i class="fa fa-calendar-alt"></i></span>
+                        <h6 v-if="!!round.fightDate"><span><i class="fa fa-calendar-alt"></i></span>
                           {{ new Date(round.fightDate.iso).toLocaleString() }}</h6>
                       </div>
                       <div class="team-single" v-if="!!round.detailsB">
