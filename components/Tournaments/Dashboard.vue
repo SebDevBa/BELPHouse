@@ -13,7 +13,7 @@
                 <li class="nav-item" role="presentation">
                   <button class="cmn-btn active" id="current-tab" data-bs-toggle="tab" data-bs-target="#current"
                           type="button" role="tab" aria-controls="current"
-                          aria-selected="false">BATTLES</button>
+                          aria-selected="false" v-on:click="tab='tournaments'">BATTLES</button>
                 </li>
                 <li class="nav-item" role="presentation">
                   <button class="cmn-btn" id="history-tab" data-bs-toggle="tab" data-bs-target="#history"
@@ -29,101 +29,7 @@
                <img src="/images/baby_cup.png" alt="icon">
             </div-->
             <div class="tab-content">
-              <div class="tab-pane fade show active" id="current" role="tabpanel" aria-labelledby="current-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="single-item glow">
-                      <div class="left-item">
-                        <div class="logo-item">
-                          <img src="/images/tournament_1.png" alt="icon">
-                        </div>
-                        <div class="mid-area">
-                          <h3>Tournament 1</h3>
-                          <ul>
-                            <li>
-                              <span><i class="far fa-calendar-alt"></i></span>
-                              FEB 15 13:30 UTC
-                            </li>
-                            <li>
-                              <span><i class="fas fa-users"></i></span>
-                              36 PARTICIPANTS
-                            </li>
-                            <li>
-                              <span><i class="fas fa-info"></i></span>
-                              Lengendary + Demi
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="last-item">
-                        <h5><img src="/images/fav.png" alt="icon" style="height: 35px"> Prize</h5>
-                        <h4>25%</h4>
-                        <span class="btn-border">
-                                            <a href="" class="cmn-btn" data-bs-toggle="modal" data-bs-target="#tournaments">Place Bets</a>
-                                        </span>
-                      </div>
-                    </div>
-                    <div class="single-item glow">
-                      <div class="left-item">
-                        <div class="logo-item">
-                          <img src="/images/tournament_2.png" alt="icon">
-                        </div>
-                        <div class="mid-area">
-                          <h3>Tournament 2</h3>
-                          <ul>
-                            <li>
-                              <span><i class="far fa-calendar-alt"></i></span>
-                              FEB 27 23:00 UTC
-                            </li>
-                            <li>
-                              <span><i class="fas fa-users"></i></span>
-                              48 PARTICIPANTS
-                            </li>
-                            <li>
-                              <span><i class="fas fa-info"></i></span>
-                              Magical + Mythical
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="last-item">
-                        <h5><img src="/images/fav.png" alt="icon" style="height: 35px"> Prize</h5>
-                        <h4>25%</h4>
-                        <span class="btn-border">
-                                            <a href="" class="cmn-btn" data-bs-toggle="modal" data-bs-target="#tournaments">Place Bets</a>
-                                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-60">
-                  <div class="col-lg-12 d-flex justify-content-center">
-                    <nav aria-label="Page navigation" class="d-flex justify-content-center">
-                      <ul class="pagination justify-content-center align-items-center pb-20">
-                        <li class="page-item">
-                          <a class="page-btn previous glow" href="javascript:void(0)"
-                             aria-label="Previous">
-                            <img src="/images/icon/arrow-left.png" alt="icon">
-                          </a>
-                        </li>
-                        <li class="page-item"><a class="page-link xlr glow" href="javascript:void(0)">1</a>
-                        </li>
-                        <li class="page-item"><a class="page-link xlr active glow"
-                                                 href="javascript:void(0)">2</a></li>
-                        <li class="page-item"><a class="page-link xlr glow" href="javascript:void(0)">3</a>
-                        </li>
-                        <li class="page-item"><a class="page-link xlr glow" href="javascript:void(0)">4</a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-btn next glow" href="javascript:void(0)" aria-label="Next">
-                            <img src="/images/icon/arrow-right.png" alt="icon">
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-              </div>
+              <TournamentsTab v-if="tab === 'tournaments'"/>
               <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="history-tab">
                 <div class="filter-section mb-60 glow">
                   <div class="section-text text-center">
@@ -336,17 +242,28 @@
 
 <script lang="ts">
 import Vue from "vue";
+// const Moralis = require('moralis-v1/node');
 export default Vue.extend({
   name: "Dashboard",
   data: () => ({
+    tab: 'tournaments',
     heroes: [],
     wallet: "",
+    tournaments: [],
   }),
   async fetch() {
     this.heroes = await this.$axios.$get('https://hammerhead-app-jv7kd.ondigitalocean.app/api/Capsule/Wallet/'+this.wallet+'/open')
   },
   fetchKey: 'id',
   fetchOnServer: false,
+  async beforeCreate() {
+    const serverUrl = 'https://ybcfygszmqql.usemoralis.com:2053/server'
+    const appId = 'kT56sV9bVjoIqBWcxcBXxPMHWVcJ0yqVYJN65ZmW'
+    // await Moralis.start({ serverUrl, appId })
+  },
+  async created() {
+
+  }
 })
 </script>
 

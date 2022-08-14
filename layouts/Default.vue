@@ -32,7 +32,7 @@
             <div class="modal-content">
               <div class="row justify-content-center">
                 <div class="col-xxl-10 col-lg-11 col-md-12">
-                  <img src="/images/launch_banner.jpg" alt="launch">
+                  <img src="/images/launch_banner.png" alt="launch">
                 </div>
               </div>
             </div>
@@ -41,6 +41,24 @@
       </div>
     </div>
     <!-- Modal CONNECT end -->
+
+    <!-- Modal NFT DETAILS Start -->
+    <div class="betpopmodal bet-this-game">
+      <div class="modal fade" id="modalNftDetails">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="container">
+            <div class="modal-content">
+              <div class="row justify-content-center text-center">
+                <div class="col-xxl-10 col-lg-11 col-md-12">
+                  <img src="/images/nft_banner.png" alt="launch">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal NFT DETAILS end -->
 
     <!--==================================================================-->
     <script src="/js/jquery-ui.js"></script>

@@ -23,9 +23,7 @@
                 <button @click="network = 'matic'" class="cmn-btn">MATIC</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="cmn-btn" id="solana-tab" data-bs-toggle="tab" data-bs-target="#solana"
-                        type="button" role="tab" aria-controls="solana" aria-selected="false">SOL
-                </button>
+                <button @click="network = 'sol'" class="cmn-btn">MATIC</button>
               </li>
             </ul>
           </div>
@@ -35,6 +33,7 @@
     <NftsBscDashboard v-if="network==='bsc'" />
     <NftsEthDashboard v-if="network==='eth'" />
     <NftsMaticDashboard v-if="network==='matic'" />
+    <NftsSolanaDashboard v-if="network==='sol'" />
   </div>
 </template>
 
