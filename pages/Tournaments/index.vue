@@ -3,7 +3,7 @@
     <TournamentsBanner/>
     <TournamentsDashboard/>
     <TournamentsTournamentModal v-show="showTournamentModal" :tournamentInfo="tournamentInfo"
-                                @closeTournamentModal="showTournamentModal = false"/>
+                                @closeTournamentModal="closeTournamentModal"/>
   </div>
 </template>
 
@@ -18,13 +18,15 @@ export default Vue.extend({
     tournamentInfo: {
       name: '',
       id: '',
+      minBet: 0,
+      maxBet: 0,
       rounds: [
         {nftA: null, nftB: null, detailsA: null, detailsB: null}
       ]
     }
   }),
   created() {
-    this.$nuxt.$on('openTournamentModal', async  ($event: { openModal: boolean, name: string, id: string }) => {
+    this.$nuxt.$on('openTournamentModal', async  ($event: { openModal: boolean, name: string, id: string, minBet: number, maxBet: number }) => {
       const config = {
         headers: {'X-Parse-Application-Id': 'kT56sV9bVjoIqBWcxcBXxPMHWVcJ0yqVYJN65ZmW'}
       }
@@ -36,8 +38,24 @@ export default Vue.extend({
       }
       this.tournamentInfo.id = $event.id
       this.tournamentInfo.name = $event.name
+      this.tournamentInfo.minBet = $event.minBet
+      this.tournamentInfo.maxBet = $event.maxBet
       this.showTournamentModal = $event.openModal
     })
+  },
+  methods: {
+    closeTournamentModal() {
+      this.showTournamentModal = false
+      this.tournamentInfo = {
+        name: '',
+        id: '',
+        minBet: 0,
+        maxBet: 0,
+        rounds: [
+          {nftA: null, nftB: null, detailsA: null, detailsB: null}
+        ]
+      }
+    }
   }
 })
 </script>

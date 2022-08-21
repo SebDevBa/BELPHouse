@@ -133,11 +133,11 @@
                                     <label for="logemail">Paste TX HASH of your bet</label>
                                     <input type="text" id="logemail"
                                            placeholder="TX HASH here" v-model="betChoose.transactionHash">
-                                    <label for="logemail">min bet {{betchoose.betIncom}}</label>
+                                    <label for="logemail">Min bet <strong>{{tournamentInfo.minBet}}</strong> / Max bet <strong>{{ tournamentInfo.maxBet }}</strong></label>
                                   </div>
-                                  <div class="single-input">
-                                    <h6>25% of your bet</h6>
-                                  </div>
+<!--                                  <div class="single-input">-->
+<!--                                    <h6>25% of your bet</h6>-->
+<!--                                  </div>-->
                                 </div>
                                 <div class="col-12">
                                   <div class="remember-me" v-if="false">

@@ -44,7 +44,7 @@
                         <img src="/images/icon/icon3.png" alt="icon">
                         <div class="text-area">
                           <h4>SOON</h4>
-                          <p class="mdr">Bet Rate</p>
+                          <p class="mdr">Your BDC</p>
                         </div>
                       </div>
                     </div>
@@ -73,7 +73,7 @@
                         <img src="/images/icon/icon5.png" alt="icon">
                         <div class="text-area">
                           <h5>AFTER LAUNCH</h5>
-                          <p class="mdr">WBNB (Current Week)</p>
+                          <p class="mdr">WBNB</p>
                         </div>
                       </div>
                     </div>

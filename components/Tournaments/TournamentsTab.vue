@@ -17,7 +17,7 @@
                   </li>
                   <li>
                     <span><i class="fas fa-users"></i></span>
-                    {{ tournament.participants }} PARTICIPANTS
+                    {{ tournament.details }}
                   </li>
                   <li>
                     <span><i class="fas fa-info"></i></span>
@@ -28,10 +28,10 @@
             </div>
             <div class="last-item">
               <h5><img src="/images/fav.png" alt="icon" style="height: 35px"> Prize</h5>
-              <h4>{{ tournament.betPrize }}%</h4>
+              <h4>{{ tournament.betPrize }}</h4>
               <span class="btn-border">
                 <button class="cmn-btn" data-bs-toggle="modal"
-                   data-bs-target="#tournaments" @click="$nuxt.$emit('openTournamentModal', {openModal: true, name: tournament.name, id: tournament.objectId})">Place Bets</button>
+                   data-bs-target="#tournaments" @click="$nuxt.$emit('openTournamentModal', {openModal: true, name: tournament.name, id: tournament.objectId, minBet: tournament.minBet, maxBet: tournament.maxBet})">Place Bets</button>
               </span>
             </div>
           </div>
