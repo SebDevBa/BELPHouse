@@ -18,6 +18,7 @@ export default Vue.extend({
     tournamentInfo: {
       name: '',
       id: '',
+      betPrize: '',
       minBet: 0,
       maxBet: 0,
       rounds: [
@@ -26,7 +27,7 @@ export default Vue.extend({
     }
   }),
   created() {
-    this.$nuxt.$on('openTournamentModal', async  ($event: { openModal: boolean, name: string, id: string, minBet: number, maxBet: number }) => {
+    this.$nuxt.$on('openTournamentModal', async  ($event: { openModal: boolean, name: string, id: string, minBet: number, maxBet: number, betPrize: string }) => {
       const config = {
         headers: {'X-Parse-Application-Id': 'kT56sV9bVjoIqBWcxcBXxPMHWVcJ0yqVYJN65ZmW'}
       }
@@ -40,6 +41,7 @@ export default Vue.extend({
       this.tournamentInfo.name = $event.name
       this.tournamentInfo.minBet = $event.minBet
       this.tournamentInfo.maxBet = $event.maxBet
+      this.tournamentInfo.betPrize = $event.betPrize
       this.showTournamentModal = $event.openModal
     })
   },
@@ -51,6 +53,7 @@ export default Vue.extend({
         id: '',
         minBet: 0,
         maxBet: 0,
+        betPrize: '',
         rounds: [
           {nftA: null, nftB: null, detailsA: null, detailsB: null}
         ]

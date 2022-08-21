@@ -31,7 +31,7 @@
               <h4>{{ tournament.betPrize }}</h4>
               <span class="btn-border">
                 <button class="cmn-btn" data-bs-toggle="modal"
-                   data-bs-target="#tournaments" @click="$nuxt.$emit('openTournamentModal', {openModal: true, name: tournament.name, id: tournament.objectId, minBet: tournament.minBet, maxBet: tournament.maxBet})">Place Bets</button>
+                   data-bs-target="#tournaments" @click="$nuxt.$emit('openTournamentModal', {openModal: true, name: tournament.name, id: tournament.objectId, minBet: tournament.minBet, maxBet: tournament.maxBet, betPrize: tournament.betPrize})">Place Bets</button>
               </span>
             </div>
           </div>

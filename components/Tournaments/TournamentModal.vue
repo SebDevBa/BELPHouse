@@ -87,7 +87,7 @@
                       <button type="button" class="cmn-btn firstTeam text-dark" data-bs-dismiss="modal"
                               aria-label="Close" data-bs-toggle="modal"
                               data-bs-target="#betpopup" @click="betChoose.tournamentId = tournamentInfo.id; betChoose.hero = round.detailsA">{{round.detailsA.nickname.name}} WINS</button>
-                      <span class="draw">30% <img src="/images/fav.png" alt="icon" style="height: 25px"> 25%</span>
+                      <span class="draw">{{ round.heroAPrize }}% <img src="/images/fav.png" alt="icon" style="height: 25px"> {{ round.heroBPrize }}%</span>
                       <button type="button" class="cmn-btn lastTeam text-dark" data-bs-dismiss="modal"
                               aria-label="Close" data-bs-toggle="modal"
                               data-bs-target="#betpopup" @click="betChoose.tournamentId = tournamentInfo.id; betChoose.hero = round.detailsB">{{round.detailsB.nickname.name}} WINS</button>
@@ -121,7 +121,7 @@
                             <div class="bettitle">
                               <h6 class="title">Place a Bet using</h6>
                               <div class="social-link d-flex align-items-center">
-                                <h3><img src="/images/fav.png" alt="icon" style="height: 35px"> $BELP</h3>
+                                <h3><img src="/images/fav.png" alt="icon" style="height: 35px"> {{ tournamentInfo.betPrize }}</h3>
                               </div>
                             </div>
                           </div>
