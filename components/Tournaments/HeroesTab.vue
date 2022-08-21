@@ -25,7 +25,7 @@
     <div class="row ahero" v-else-if="$fetchState.error">
       <div class="col-12 pad-lr zoom">
 <!--        <h5 class="txglow-1" v-if="wallet === ''">Please paste your wallet in the field above, and press search!</h5>-->
-        <h5 class="txglow-1" v-if="wallet !== ''">Oops we aren't able to get your heroes now, try again later.</h5>
+<!--        <h5 class="txglow-1" v-if="wallet !== ''">Oops we aren't able to get your heroes now, try again later.</h5>-->
       </div>
     </div>
     <div class="row ahero" v-else>
