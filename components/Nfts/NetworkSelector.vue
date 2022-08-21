@@ -23,7 +23,7 @@
                 <button @click="network = 'matic'" class="cmn-btn">MATIC</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button @click="network = 'sol'" class="cmn-btn">MATIC</button>
+                <button @click="network = 'sol'" class="cmn-btn">SOL</button>
               </li>
             </ul>
           </div>

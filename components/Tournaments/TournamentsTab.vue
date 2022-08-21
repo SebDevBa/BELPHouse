@@ -21,7 +21,7 @@
                   </li>
                   <li>
                     <span><i class="fas fa-info"></i></span>
-                    {{ tournament.details }}
+                    {{ tournament.url }}
                   </li>
                 </ul>
               </div>

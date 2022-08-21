@@ -133,6 +133,7 @@
                                     <label for="logemail">Paste TX HASH of your bet</label>
                                     <input type="text" id="logemail"
                                            placeholder="TX HASH here" v-model="betChoose.transactionHash">
+                                    <label for="logemail">min bet {{betchoose.betIncom}}</label>
                                   </div>
                                   <div class="single-input">
                                     <h6>25% of your bet</h6>

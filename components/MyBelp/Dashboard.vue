@@ -54,6 +54,7 @@
                       <div class="section-header text-center">
                         <h5 class="sub-title">Your Passive</h5>
                         <h2 class="title">Rewards</h2>
+                        <p><i class="fa fa-info-circle"></i> Your <strong>Baby Doge Coin</strong> rewards are distributed automatically depending on volume and your <strong>WBNB rewards</strong> and <strong>bet prizes</strong> are distributed manually on a 7-day basis.</p>
                       </div>
                     </div>
                   </div>
