@@ -135,9 +135,11 @@
                                            placeholder="TX HASH here" v-model="betChoose.transactionHash">
                                     <label for="logemail">Min bet <strong>{{tournamentInfo.minBet}}</strong> / Max bet <strong>{{ tournamentInfo.maxBet }}</strong></label>
                                   </div>
-<!--                                  <div class="single-input">-->
-<!--                                    <h6>25% of your bet</h6>-->
-<!--                                  </div>-->
+                                  <div class="single-input">
+                                    <h6>Send funds to this wallet:
+                                      <strong>0xf71A5E9269f7510C7D2CCd03F14e61352Adf8452</strong>
+                                    </h6>
+                                  </div>
                                 </div>
                                 <div class="col-12">
                                   <div class="remember-me" v-if="false">

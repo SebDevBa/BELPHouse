@@ -18,19 +18,19 @@
 
     <!-- HEROES BOXES -->
     <div class="row ahero" v-if="$fetchState.pending">
-      <div class="col-12 pad-lr zoom">
-        <h5 class="txglow-1">Catching your heroes around the world!</h5>
+      <div class="col-12 pad-lr">
+        <h5>Catching your heroes around the world!</h5>
       </div>
     </div>
     <div class="row ahero" v-else-if="$fetchState.error">
-      <div class="col-12 pad-lr zoom">
+      <div class="col-12 pad-lr">
 <!--        <h5 class="txglow-1" v-if="wallet === ''">Please paste your wallet in the field above, and press search!</h5>-->
 <!--        <h5 class="txglow-1" v-if="wallet !== ''">Oops we aren't able to get your heroes now, try again later.</h5>-->
       </div>
     </div>
     <div class="row ahero" v-else>
-      <div class="col-12 pad-lr zoom" v-if="heroes.length === 0">
-        <h5 class="txglow-1">We not found any hero in this wallet, please try using another wallet.</h5>
+      <div class="col-12 pad-lr" v-if="heroes.length === 0">
+        <h5 class="">We not found any hero in this wallet, please try using another wallet.</h5>
       </div>
       <div class="col-xl-3 col-lg-4 col-sm-6 pad-lr zoom" v-for="hero of this.heroes">
         <div :class="'hero2 glow-'+hero.hero.rarityId">
