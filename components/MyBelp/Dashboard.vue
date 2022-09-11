@@ -25,7 +25,8 @@
                       <div class="single-info glow">
                         <img src="/images/icon/icon1.png" alt="icon">
                         <div class="text-area">
-                          <h4>0</h4>
+                          <h4 v-if="$auth.loggedIn">{{ this.$auth.user.balance.belp }}</h4>
+                          <h4 v-else>...</h4>
                           <p class="mdr">Your BELP</p>
                         </div>
                       </div>
@@ -34,7 +35,8 @@
                       <div class="single-info glow">
                         <img src="/images/icon/icon2.png" alt="icon">
                         <div class="text-area">
-                          <h4>0</h4>
+                          <h4 v-if="$auth.loggedIn">{{ this.$auth.user.balance.belpNft }}</h4>
+                          <h4 v-else>...</h4>
                           <p class="mdr">Your NFTs</p>
                         </div>
                       </div>
@@ -43,7 +45,8 @@
                       <div class="single-info glow">
                         <img src="/images/icon/icon3.png" alt="icon">
                         <div class="text-area">
-                          <h4>SOON</h4>
+                          <h4 v-if="$auth.loggedIn">{{ this.$auth.user.balance.babyDoge }}</h4>
+                          <h4 v-else>...</h4>
                           <p class="mdr">Your BDC</p>
                         </div>
                       </div>

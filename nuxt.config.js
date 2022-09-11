@@ -64,7 +64,32 @@ export default {
     // 'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/auth-next'
   ],
+
+  auth: {
+    strategies: {
+      local: {
+        token: {
+          property: 'wallet',
+        },
+        user: {
+          property: '',
+          autoFetch: true
+        },
+        endpoints: {
+          login: { url: 'https://hammerhead-app-jv7kd.ondigitalocean.app/api/belpbalance/balance', method: 'post' },
+          user: { url: 'https://hammerhead-app-jv7kd.ondigitalocean.app/api/belpbalance/balance', method: 'get' },
+        },
+        redirect: {
+          // login: '/login',
+          logout: '/',
+          // callback: '/login',
+          home: '/MyBelp'
+        }
+      }
+    }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

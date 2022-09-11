@@ -38,7 +38,7 @@
                   PRE-SALE
                 </button>
               </div>
-<!--              <StructureLoginButton />-->
+              <StructureLoginButton />
             </div>
           </nav>
           <!--span class="text-center text-white">NO Need to connect your wallet</span-->

@@ -21,7 +21,7 @@
     <!-- Footer Area End -->
 
     <!-- Modal CONNECT Start -->
-<!--    <SctructureConnectModal/>-->
+    <StructureConnectModal/>
     <!-- Modal CONNECT end -->
 
     <!-- Modal CONNECT Start -->

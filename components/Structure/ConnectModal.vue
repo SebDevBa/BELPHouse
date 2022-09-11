@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="modal fade" id="connect">
+          <div class="modal fade" id="loginModal">
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header justify-content-center">
@@ -16,18 +16,19 @@
                     <div class="login-reg-content">
                       <div class="modal-body">
                         <div class="head-area">
-                          <img src="assets/images/wallet.png" alt="icon" style="height: 150px">
+                          <img src="/images/wallet.png" alt="icon" style="height: 150px">
                           <div class="bettitle">
-                            <h4 class="title">Check your Balance</h4>
+                            <h4 class="title" v-if="!$auth.loggedIn">Check your Balance</h4>
+                            <h4 class="title" v-else>Logged, please close this window</h4>
                           </div>
                         </div>
-                        <div class="form-area">
-                          <form action="#">
+                        <div class="form-area" v-if="!$auth.loggedIn">
+                          <form @submit.prevent="userLogin">
                             <div class="row">
                               <div class="col-12">
                                 <div class="single-input">
                                   <label for="logwallet">Copy and Paste your address</label>
-                                  <input type="text" id="logwallet"
+                                  <input v-model="inputWallet" type="text" id="logwallet"
                                          placeholder="wallet address here">
                                 </div>
                                 <div class="single-input">
@@ -43,7 +44,7 @@
                             <p>Need more $BELP? <a href="javascript:void(0)" class="reg-btn">Buy Now</a></p>
                           </div>
                         </div>
-                      </div>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -59,7 +60,23 @@
 <script lang="ts">
 import Vue from "vue";
 export default Vue.extend({
-  name: "ConnectModal"
+  name: "ConnectModal",
+  data: () => ({
+    inputWallet: "",
+    modalShow: true
+  }),
+  methods: {
+    async userLogin() {
+      try {
+        // await this.$auth.setUser(this.inputWallet)
+        let response = await this.$auth.loginWith('local', { data: {"wallet": this.inputWallet} })
+        this.inputWallet = ""
+        this.$router.push("/MyBelp")
+      } catch (err) {
+        console.log(err)
+      }
+    }
+  }
 })
 </script>
 
