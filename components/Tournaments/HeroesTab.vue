@@ -99,6 +99,11 @@ export default Vue.extend({
     wallet: "",
     tournaments: [],
   }),
+  mounted() {
+    if(this.$auth.loggedIn && !!this.$auth.user?.wallet){
+      this.wallet = this.$auth.user?.wallet + ""
+    }
+  },
   async fetch() {
     this.heroes = await this.$axios.$get('https://hammerhead-app-jv7kd.ondigitalocean.app/api/Capsule/Wallet/'+this.wallet+'/open')
   },
